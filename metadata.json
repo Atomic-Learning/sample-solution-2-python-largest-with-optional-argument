@@ -1,0 +1,18 @@
+{
+    "title": "Sample Solution: Python Largest Value with Optional Argument",
+    "slug": "sample-solution-2-python-largest-with-optional-argument",
+    "description": "Worked solution showing a Python function that uses a default boolean argument to control behaviour.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "sample-solution",
+        "python"
+    ],
+    "duration": 3,
+    "prerequisites": [
+        "exercise-python-largest-with-optional-argument",
+        "python-max-min-functions"
+    ],
+    "related": []
+}

@@ -1,0 +1,17 @@
+<h2>Example solution</h2>
+
+<p>We can start by using the <code class="language-python">max()</code> function to find the largest value in the list. When <code class="language-python">abs_value</code> is <code class="language-python">True</code>, compare the positive maximum with the negative of the smallest value.</p>
+
+<py-cell>def largest(list_in, abs_value=False):
+    max_value = max(list_in)
+    if abs_value:
+        min_value = min(list_in)
+        return max(max_value, -min_value)
+    return max_value</py-cell>
+
+<h2>Test Calls</h2>
+<py-cell>print(largest([1, 2, -3]))
+print(largest([1, 2, -3], False))
+print(largest([1, 2, -3], True))
+print(largest([1, 2, -3, 4], True))
+</py-cell>
