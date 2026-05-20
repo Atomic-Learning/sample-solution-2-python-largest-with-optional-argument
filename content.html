@@ -1,6 +1,6 @@
 <h2>Example solution</h2>
 
-<p>We can start by using the <code class="language-python">max()</code> function to find the largest value in the list. When <code class="language-python">abs_value</code> is <code class="language-python">True</code>, compare the positive maximum with the negative of the smallest value.</p>
+<p>We can start by using the <code class="language-python">max()</code> function to find the largest value in the list. When <code class="language-python">abs_value</code> is <code class="language-python">True</code>, the code compares the positive maximum with the negative of the smallest value and returns the larger of the two. When <code class="language-python">abs_value</code> is <code class="language-python">False</code> the if-block will not be entered and the largest value <code class="language-python">max_value</code> will be returned.</p>
 
 <py-cell>def largest(list_in, abs_value=False):
     max_value = max(list_in)
